@@ -1,0 +1,9 @@
+.join_waitlist {
+  color: #fff;
+  background-color: #5376e2;
+  padding: 16px;
+  border-radius: 4px;
+  text-align: center;
+  /* width: 20%; */
+  font-size: 16px;
+}

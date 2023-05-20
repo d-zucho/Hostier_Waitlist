@@ -1,0 +1,86 @@
+.main_container {
+  /* border: 1px solid black; */
+  margin-top: 4rem;
+  display: flex;
+  gap: 1rem;
+  display: flex;
+  /* align-items: center; */
+  position: relative;
+  font-size: 18px;
+}
+
+.copy_container {
+  /* display: flex;
+  flex-direction: column;
+  gap: 1rem; */
+  width: 100%;
+}
+
+.main_copy {
+  line-height: 145%;
+  margin-top: 1rem;
+}
+
+.input_cta {
+  display: flex;
+  width: 100%;
+  margin: 0.75rem 0;
+  gap: 0.75rem;
+}
+
+.email_input {
+  width: 70%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  border-radius: 4px;
+}
+
+.images_container {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: var(--text-large-font);
+  font-size: var(--text-large-size);
+  font-weight: var(--text-large-weight);
+}
+
+.checkmark {
+  margin-right: 0.5rem;
+}
+
+.hero_image {
+  width: 75%;
+  z-index: 100;
+  position: absolute;
+}
+
+.purple_shape {
+  z-index: -1;
+  position: absolute;
+  transform: rotate(-15deg);
+  /* translate: -10px; */
+  width: 75%;
+}
+
+.pink_shape {
+  z-index: -5;
+  transform: rotate(-30deg);
+  position: absolute;
+  width: 75%;
+}
+
+.blue_shape {
+  z-index: -10;
+  transform: rotate(-45deg);
+  position: absolute;
+  width: 75%;
+}
